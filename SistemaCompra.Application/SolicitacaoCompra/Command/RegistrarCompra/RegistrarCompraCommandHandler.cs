@@ -12,7 +12,7 @@ namespace SistemaCompra.Application.SolicitacaoCompra.Command.RegistrarCompra
     {
         private readonly ISolicitacaoCompraRepository _solicitacaoCompraRepository;
 
-        public RegistrarCompraCommandHandler(ISolicitacaoCompraRepository solicitacaoCompraRepository,IUnitOfWork uow, IMediator mediator) : base(uow, mediator)
+        public RegistrarCompraCommandHandler(ISolicitacaoCompraRepository solicitacaoCompraRepository, IUnitOfWork uow, IMediator mediator) : base(uow, mediator)
         {
             _solicitacaoCompraRepository = solicitacaoCompraRepository;
         }
